@@ -185,7 +185,7 @@ echo "       done."
 
 # compile the sass
 echo "-----> Compiling SASS..."
-$PWD/.gem/bin/sass --update $BUILD_DIR:$BUILD_DIR | indent
+$PWD/.gem/bin/sass --update $BUILD_DIR:$BUILD_DIR --sourcemap=none | indent
 echo "       done."
 
 
